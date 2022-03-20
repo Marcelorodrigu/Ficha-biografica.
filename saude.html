@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PROJETO PROFESSOR DIRETOR DE TURMA</title>
+  <!--CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+
+<body >
+  <!--Barra de navegação-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <a class="navbar-brand" href="#">
+      <h5> Projeto PDT </h5>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+      aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Ação</a>
+            <a class="dropdown-item" href="#">Outra ação</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Algo mais aqui</a>
+          </div>
+        </li>
+        
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </nav>
+  <!--Fim da barra de navegação-->
+  
+<br>
+<center>
+<h2>FICHA BIOGRÁFICA</h2>
+</center>
+<center>
+<hr>
+</center>
+<br>
+
+<center>
+    <h3>Saúde/Alimentação</h3>
+    </center>
+    <hr>
+
+
+<div class="row">
+    <div class="col-2"><h6>Tem Dificuldades?</h6>
+
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>Nenhuma</option>
+            <option>Visuais</option>
+            <option>Auditivas</option>
+            <option>Motoras</option>
+            <option>De Fala</option>
+            <option>De Linguagem</option>
+            <option>Outras
+                <input type="text" class="form-control" id="text" aria-describedby="name" placeholder="Outra" >
+            </option>
+          </select>
+    </div>
+
+    <div class="col-1"><h6>Tipo Sanguíneo</h6>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>A</option>
+            <option>B</option>
+            <option>AB</option>
+            <option>O</option>
+            
+          </select>
+    
+  </div>
+  <div class="col-2"><h6>Doença(as) Frequante(s):</h6>
+    <input type="text" class="form-control" id="text" aria-describedby="name" placeholder="Doenças frequentes" >
+  </div>
+
+    <div class="col-2"><h6>Doença(as) Permanente(es)</h6>
+        <input type="text" class="form-control" id="text" aria-describedby="name" placeholder="Doenças permanente" ></div>
+        <div class="col-3"><h6>Doenças Graves na Família</h6>
+            <input type="text" class="form-control" id="text" aria-describedby="name" placeholder="Doenças graves na familia" ></div>
+            <div class="col-2"><h6>Costuma ter dores de Cabeça?</h6>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>NÃO</option>
+                    <option>SIM</option>
+                  </select>
+            </div>
+        </div>
+</div>
+
+
+<div class="row">
+    <div class="col-3"><h6>Alergia(as)</h6>
+        <input type="text" class="form-control" id="text" aria-describedby="name" placeholder="Digite aqui: (caso você tenha alergias)" >
+        
+    </div>
+        <div class="col-3"><h6>Cuidados Especiais de Saúde</h6>
+            <input type="text" class="form-control" id="text" aria-describedby="name" placeholder="Digite aqui: (caso você tenha cuidados de saúde)" >
+        </div>
+    <div class="col-2"><h6>Faz uso de algum tipo de Medicamento:</h6>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>Sim</option>
+            <option>Não
+                <input type="text" class="form-control" id="text" aria-describedby="name" placeholder="Qual?" >
+            </option>
+            
+            
+          </select></div>
+    <div class="col-2"><h6>A que horas costuma dormir:
+        <input type="text" class="form-control" id="text" aria-describedby="name" placeholder="Que hora?" >
+    </h6></div>
+    <div class="col-2"><h6>N° de Horas que costuma dormir:</h6>
+        <input type="text" class="form-control" id="text" aria-describedby="name" placeholder="Que hora costuma dormir?" >
+    </div>
+  </div>
+</div>
+
+<div>
+    <div class="col-2">
+    <h6>Alimenta-se ao sair de casa?</h6>
+      <select class="form-control" id="exampleFormControlSelect1">
+          <option>Sim</option>
+          <option>Não
+              <input type="text" class="form-control" id="text" aria-describedby="name" placeholder="O Que?" >
+          </option>
+          
+          
+        </select></div>
+</div>
+
+<br>
+<button type="button" class="btn btn-primary btn-lg btn-block btn-dark"><a class="page-link btn btn-outline-success my-2 my-sm-0 btn-success" href="enviado.html">Enviar</a></button>
+      
+      </div>
+      
+
+      <br>
+
+<!--JS-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+crossorigin="anonymous"></script>
+</body>
+
+</html>

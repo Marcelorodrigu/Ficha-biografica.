@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PROJETO PROFESSOR DIRETOR DE TURMA</title>
+  <!--CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+
+<body >
+    <!--Barra de navegação-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <a class="navbar-brand" href="#">
+      <h5> Projeto PDT </h5>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+      aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Ação</a>
+            <a class="dropdown-item" href="#">Outra ação</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Algo mais aqui</a>
+          </div>
+        </li>
+        
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </nav>
+  <!--Fim da barra de navegação-->
+  <br>
+  <center>
+  <h2>FICHA BIOGRÁFICA</h2>
+  </center>
+  <center>
+  <hr>
+  </center>
+  <br>
+
+  <center>
+    <h3>Vida Escolar</h3>
+    </center>
+    <hr>
+    
+<!--inicio da primeira grid-->
+
+    <div class="row">
+        <div class="col">
+            <center>
+           <h5>DISCIPLINAS/ÁREAS</h5>
+        </center>
+        </div>
+
+        <div class="col">
+            <h6>Média final do ano anterior</h6>
+        </div>
+
+        <div class="col">
+            <h6>Média de recuperação</h6>
+        </div>
+
+        <div class="col">
+            <h6>Apoio pedag. extra-aula</h6>
+        </div>
+
+        <div class="col-1">
+            <h6>Preferidas</h6>
+        </div>
+
+        <div class="col-1">
+        <h6>Com mais dificuldades</h6>
+        </div>
+
+    </div>
+
+    <!--fim da primeira grid-->
+
+    <!--inicio da segunda grid-->
+
+    <div class="row">
+        <div class="col-2">
+            <center>
+            <h6>L. Portuguesa</h6>
+            </center>
+        </div>
+
+
+        <div class="col"><input type="number" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite sua média" required ></div>
+        <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite sua Med.Recuperação"  ></div>
+        <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div>
+        <div class="col-1"><select class="form-control" id="exampleFormControlSelect1">
+            <option>NÃO</option>
+            <option>SIM</option>
+          </select></div>
+          <div class="col-1"><select class="form-control" id="exampleFormControlSelect1">
+            <option>NÃO</option>
+            <option>SIM</option>
+          </select></div>
+    </div>
+
+    <!--fim da segunda grid-->
+
+
+    <!--inicio da terceira grid-->
+    <div class="row">
+        <div class="col-2">
+            <center>
+            <h6>L. Inglesa</h6>
+        </center>
+        </div>
+
+
+        <div class="col"><input type="number" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite sua média" required ></div>
+        <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite sua Med.Recuperação"  ></div>
+        <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div>
+        <div class="col-1"><select class="form-control" id="exampleFormControlSelect1">
+            <option>NÃO</option>
+            <option>SIM</option>
+          </select></div>
+          <div class="col-1"><select class="form-control" id="exampleFormControlSelect1">
+            <option>NÃO</option>
+            <option>SIM</option>
+          </select></div>
+    </div>
+    <!--fim da terceira grid-->
+    
+    <!--inicio da quarta grid-->
+
+    <div class="row">
+        <div class="col-2">
+            <center>
+            <h6>L. Espanhola</h6>
+        </center>
+        </div>
+
+
+        <div class="col"><input type="number" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite sua média" required ></div>
+        <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite sua Med.Recuperação"  ></div>
+        <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div>
+        <div class="col-1"><select class="form-control" id="exampleFormControlSelect1">
+            <option>NÃO</option>
+            <option>SIM</option>
+          </select></div>
+          <div class="col-1"><select class="form-control" id="exampleFormControlSelect1">
+            <option>NÃO</option>
+            <option>SIM</option>
+          </select></div>
+    </div>
+
+    <!--fim da quarta grid-->
+
+    <!--inicio da quinta grid-->
+
+    <div class="row">
+        <div class="col-2">
+            <center>
+            <h6>Arte</h6>
+        </center>
+        </div>
+
+
+        <div class="col"><input type="number" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite sua média" required ></div>
+        <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite sua Med.Recuperação"  ></div>
+        <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div>
+        <div class="col-1"><select class="form-control" id="exampleFormControlSelect1">
+            <option>NÃO</option>
+            <option>SIM</option>
+          </select></div>
+          <div class="col-1"><select class="form-control" id="exampleFormControlSelect1">
+            <option>NÃO</option>
+            <option>SIM</option>
+          </select></div>
+    </div>
+        <!--fim da quinta grid-->
+
+        <!--inicio da sexxta grid-->
+    <div class="row">
+        <div class="col-2">
+            <center>
+            <h6>Ed. Física</h6>
+        </center>
+        </div>
+
+
+        <div class="col"><input type="number" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite sua média" required ></div>
+        <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite sua Med.Recuperação"  ></div>
+        <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div>
+        <div class="col-1"><select class="form-control" id="exampleFormControlSelect1">
+            <option>NÃO</option>
+            <option>SIM</option>
+          </select></div>
+          <div class="col-1"><select class="form-control" id="exampleFormControlSelect1">
+            <option>NÃO</option>
+            <option>SIM</option>
+          </select></div>
+    </div>
+    <!--fim da sexta grid-->
+
+    <!--inicio da setima grid-->
+
+    <div class="row">
+        <div class="col-2">
+            <center>
+            <h6>História</h6>
+        </center>
+        </div>
+
+
+        <div class="col"><input type="number" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite sua média" required ></div>
+        <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite sua Med.Recuperação"  ></div>
+        <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div>
+        <div class="col-1"><select class="form-control" id="exampleFormControlSelect1">
+            <option>NÃO</option>
+            <option>SIM</option>
+          </select></div>
+          <div class="col-1"><select class="form-control" id="exampleFormControlSelect1">
+            <option>NÃO</option>
+            <option>SIM</option>
+          </select></div>
+    </div>
+
+    <!--fim da setima frid-->
+
+    <!--inicio da oitava grid-->
+
+    <div class="row">
+        <div class="col-2">
+            <center>
+            <h6>Geografia</h6>
+        </center>
+        </div>
+
+
+        <div class="col"><input type="number" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite sua média" required ></div>
+        <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite sua Med.Recuperação"  ></div>
+        <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div>
+        <div class="col-1"><select class="form-control" id="exampleFormControlSelect1">
+            <option>NÃO</option>
+            <option>SIM</option>
+          </select></div>
+          <div class="col-1"><select class="form-control" id="exampleFormControlSelect1">
+            <option>NÃO</option>
+            <option>SIM</option>
+          </select></div>
+    </div>
+
+    <!--fim da oitava grid-->
+
+    <!--inicio da nona grid-->
+
+    <div class="row">
+        <div class="col-2">
+            <center>
+            <h6>Matemática</h6>
+        </center>
+        </div>
+
+
+        <div class="col"><input type="number" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite sua média" required ></div>
+        <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite sua Med.Recuperação"  ></div>
+        <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div>
+        <div class="col-1"><select class="form-control" id="exampleFormControlSelect1">
+            <option>NÃO</option>
+            <option>SIM</option>
+          </select></div>
+          <div class="col-1"><select class="form-control" id="exampleFormControlSelect1">
+            <option>NÃO</option>
+            <option>SIM</option>
+          </select></div>
+    </div>
+    <!--fim da nona grid-->
+
+    <!--inicio da decima-->
+
+    <div class="row">
+        <div class="col-2">
+            <center>
+            <h6>Física</h6>
+        </center>
+        </div>
+
+
+        <div class="col"><input type="number" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite sua média" required ></div>
+        <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite sua Med.Recuperação"  ></div>
+        <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div>
+        <div class="col-1"><select class="form-control" id="exampleFormControlSelect1">
+            <option>NÃO</option>
+            <option>SIM</option>
+          </select></div>
+          <div class="col-1"><select class="form-control" id="exampleFormControlSelect1">
+            <option>NÃO</option>
+            <option>SIM</option>
+          </select></div>
+    </div>
+
+        <!--fim da decima grid-->
+
+        <!--inicio da decima primaira grid-->
+
+    <div class="row">
+        <div class="col-2">
+            <center>
+            <h6>Química</h6>
+        </center>
+        </div>
+
+
+        <div class="col"><input type="number" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite sua média" required ></div>
+        <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite sua Med.Recuperação"  ></div>
+        <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div>
+        <div class="col-1"><select class="form-control" id="exampleFormControlSelect1">
+            <option>NÃO</option>
+            <option>SIM</option>
+          </select></div>
+          <div class="col-1"><select class="form-control" id="exampleFormControlSelect1">
+            <option>NÃO</option>
+            <option>SIM</option>
+          </select></div>
+    </div>
+    <!--fim da decima primaira grid-->
+
+    <!--inicio da decima segunda grid-->
+
+    <div class="row">
+        <div class="col-2">
+            <center>
+            <h6>Biologia</h6>
+        </center>
+        </div>
+
+
+        <div class="col"><input type="number" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite sua média" required ></div>
+        <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite sua Med.Recuperação"  ></div>
+        <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div>
+        <div class="col-1"><select class="form-control" id="exampleFormControlSelect1">
+            <option>NÃO</option>
+            <option>SIM</option>
+          </select></div>
+          <div class="col-1"><select class="form-control" id="exampleFormControlSelect1">
+            <option>NÃO</option>
+            <option>SIM</option>
+          </select></div>
+    </div>
+<!--fim da decima segunda grid-->
+<br>
+<br>
+
+
+
+        <!--inicio da segunda parte do site-->
+
+        
+
+        
+          <div class="row">
+            <div class="col-2"><h6>Cursou a educação infantil?</h6></div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      SIM
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      NÃO
+                    </label>
+                  </div>
+                  <hr>
+            </div>
+            <div class="col-1"><h6>Quanto tempo?</h6></div>
+            <div class="col"><div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div></div>
+          </div>
+
+          <div class="row">
+            <div class="col-2"><h6>Estudou em escola particular?</h6></div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      SIM
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      NÃO
+                    </label>
+                  </div>
+                  <hr>
+            </div>
+            <div class="col-1"><h6>Quanto tempo?</h6></div>
+            <div class="col"><div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div></div>
+          </div>
+
+          <div class="row">
+            <div class="col-2"><h6>Participa(ou) de outras atividades?</h6></div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      SIM
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      NÃO
+                    </label>
+                  </div>
+                  <hr>
+            </div>
+            <div class="col-1"><h6>Quais?</h6></div>
+            <div class="col"><div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div></div>
+          </div>
+
+          <div class="row">
+            <div class="col-2"><h6>Repetiu algum ano?</h6></div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      SIM
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      NÃO
+                    </label>
+                  </div>
+                  <hr>
+            </div>
+            <div class="col-1"><h6>Qual/Quais?</h6></div>
+            <div class="col"><div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div></div>
+          </div>
+
+          <div class="row">
+            <div class="col-2"><h6>Estuda todos os dias em casa?</h6></div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      SIM
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      NÃO
+                    </label>
+                  </div>
+                  <hr>
+            </div>
+            <div class="col-1"><h6>Tempo (aproximadamente)</h6></div>
+            <div class="col"><div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div></div>
+          </div>
+
+          <div class="row">
+            <div class="col-2"><h6>Dispõe de local adequado para estudo?</h6></div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      SIM
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      NÃO
+                    </label>
+                  </div>
+                  <hr>
+            </div>
+            <div class="col-1"><h6>Onde?</h6></div>
+            <div class="col"><div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div></div>
+          </div>
+
+          <div class="row">
+            <div class="col-2"><h6>Dispensado – prática de Ed. Física?</h6></div>
+            <div class="col"><div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  SIM
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  NÃO
+                </label>
+              </div>
+              <hr>
+            </div>
+            <div class="col-1"><h6>Por quê?</h6></div>
+            <div class="col"><div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div></div>
+          </div>
+
+          <div class="row">
+            <div class="col-2"><h6>Acompanhamento especializado?</h6></div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      SIM
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      NÃO
+                    </label>
+                  </div>
+                  <hr>
+            </div>
+            <div class="col-1"><h6>Qual?</h6></div>
+            <div class="col"><div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div></div>
+          </div>
+
+          <div class="row">
+            <div class="col-2"><h6>Alguém se interessa pelo teu estudo?</h6></div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      SIM
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      NÃO
+                    </label>
+                  </div>
+                  <hr>
+            </div>
+            <div class="col-1"><h6>Quem?</h6></div>
+            <div class="col"><div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div></div>
+          </div>
+
+          <div class="row">
+            <div class="col-2"><h6>Alguém o ajuda a estudar?</h6></div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      SIM
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      NÃO
+                    </label>
+                  </div>
+                  <hr>
+            </div>
+            <div class="col-1"><h6>Quem?</h6></div>
+            <div class="col"><div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div></div>
+          </div>
+
+          <div class="row">
+            <div class="col-2"><h6>Frequenta a escola por que quer?</h6></div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      SIM
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      NÃO
+                    </label>
+                  </div>
+                  <hr>
+            </div>
+            <div class="col-1"><h6>Motivo?</h6></div>
+            <div class="col"><div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div></div>
+          </div>
+
+          <div class="row">
+            <div class="col-2"><h6>Frequenta o curso pretendido?</h6></div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      SIM
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      NÃO
+                    </label>
+                  </div>
+                  <hr>
+            </div>
+            <div class="col-1"><h6>Pretendido?</h6></div>
+            <div class="col"><div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div></div>
+          </div>
+
+          <div class="row">
+            <div class="col-2"><h6>Gosta de estudar nesta escola?</h6></div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      SIM
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      NÃO
+                    </label>
+                  </div>
+                  <hr>
+            </div>
+            <div class="col-1"><h6>Motivo?</h6></div>
+            <div class="col"><div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div></div>
+          </div>
+
+          <div class="row">
+            <div class="col-2"><h6>Recebe apoio pedagógico?</h6></div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      SIM
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      NÃO
+                    </label>
+                  </div>
+                  <hr>
+            </div>
+            <div class="col-1"><h6>Qual?</h6></div>
+            <div class="col"><div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div></div>
+          </div>
+
+          <div class="row">
+            <div class="col-2"><h6>Recebe benefício do governo?</h6></div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      SIM
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      NÃO
+                    </label>
+                  </div>
+                  <hr>
+            </div>
+            <div class="col-1"><h6>Qual?</h6></div>
+            <div class="col"><div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Digite aqui"  ></div></div>
+          </div>
+
+          <div class="row">
+            <div class="col-2"><h6>Estudou nesta escola no ano anterior?</h6></div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      SIM
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      NÃO
+                    </label>
+                  </div>
+                  <hr>
+            </div>
+            <div class="col"></div>
+            
+          </div>
+
+
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1"><h5>DÊ IDÉIAS/SUGESTÕES PARA A ESCOLA E/OU PARA OS PROFESSORES:</h5></label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite aqui suas ideias/sugestões para a nossa escola/professores:"></textarea>
+                    </div>
+                  </form>
+              </div>
+              <div class="col">
+                
+              </div>
+            </div>
+          
+
+            <div class="row">
+                <div class="col"><h6>Desloc. Casa para Escola:</h6>
+                    <div class="form-group">
+                        
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>Pé</option>
+                          <option>Ônibus</option>
+                          <option>Carro</option>
+                          <option>Moto</option>
+                          <option>Trem</option>
+                          <option>Bicicleta</option>
+                        </select>
+                      </div>
+                      <h6>Distância:</h6>
+                      <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Distância em km"  ></div>
+                      <h6>Tempo:</h6>
+                      <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Tempo em (hrs)"  ></div>
+                </div>
+                <div class="col"><h6>Desloc. Escola para Casa:</h6>
+                    <div class="form-group">
+                        
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>Pé</option>
+                          <option>Ônibus</option>
+                          <option>Carro</option>
+                          <option>Moto</option>
+                          <option>Trem</option>
+                          <option>Bicicleta</option>
+                        </select>
+                      </div>
+                        <h6>Distância:</h6>
+                        <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Distância em (km)"  ></div>
+                        <h6>Tempo:</h6>
+                        <div class="col"><input type="text" class="form-control" id="text" aria-describedby="Nome" placeholder="Tempo em (hrs)"  ></div>
+                </div>
+                
+                <div class="col"></div>
+                <div class="col"></div>
+              </div>
+                <br>
+
+
+         <!--fim da segunda parte do site-->
+
+
+<div class="row">
+    <div class="col-12" style="align-items: center; text-align: center;">
+      <nav aria-label="Navegação de página exemplo">
+        <ul class="pagination justify-content-center">
+            <li class="page-item ">
+                <a class="page-link btn btn-outline-success my-2 my-sm-0 " href="composicaof.html" >Anterior</a>
+              </li>
+          
+          <li class="page-item">
+            <a class="page-link btn btn-outline-success my-2 my-sm-0 " href="ocupacao.html">Próximo</a>
+          </li>
+        </ul>
+      </nav>
+      </div>
+      </div>
+
+
+    <!--JS-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+  crossorigin="anonymous"></script>
+</body>
+
+</html>
